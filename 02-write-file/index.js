@@ -1,5 +1,5 @@
 const { stdin, stdout } = process;
-const fs = require("fs");
+const fs = require("node:fs");
 const path = require('node:path')
 const output = fs.createWriteStream(path.join(__dirname, 'text.txt'));
 
